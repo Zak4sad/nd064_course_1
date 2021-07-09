@@ -1,0 +1,24 @@
+namespace:
+  name: prod
+ 
+image:
+  repository: nginx 
+  tag: 1.17.0
+  pullPolicy: IfNotPresent
+
+resources:
+      requests:
+        memory: "256Mi"
+        cpu: "70m"
+      limits:
+        memory: "256Mi"
+        cpu: "70m"
+
+replicaCount: 2
+
+
+service:
+  port: 80
+
+configmap:
+  version: 1.17.0 

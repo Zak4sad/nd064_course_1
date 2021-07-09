@@ -1,0 +1,7 @@
+apiVersion: v1
+name: nginx-deployment 
+description: Install a Nginx SADEK deployment
+version: 1.0.0
+maintainers:
+- name: Zak4sad 
+  email: zakariakarim1616@gmail.com 
